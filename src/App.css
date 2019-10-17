@@ -1,3 +1,5 @@
+@import url("//cdn.muicss.com/mui-0.10.0/css/mui.min.css");
+@import url("//cdn.muicss.com/mui-0.10.0/extra/mui-colors.min.css");
 .App {
   text-align: center;
 }
@@ -8,7 +10,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,4 +21,38 @@
 
 .App-link {
   color: #09d3ac;
+}
+textarea {
+  min-height: 100px;
+  width: 200px;
+}
+
+.postcontainer {
+  background-color: rgb(231, 230, 230);
+}
+.profilepic {
+  width: 150px;
+  height: 150px;
+
+  border-radius: 90px;
+}
+img {
+  width: 100%;
+}
+
+footer {
+  min-height: 200px;
+  background-color: #282c34;
+}
+footer > p {
+  color: white;
+}
+p {
+  font-size: 1.2rem;
+}
+li {
+  list-style-type: none;
+}
+.newcolor {
+  background-color: rgb(42, 247, 10);
 }
